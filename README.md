@@ -22,7 +22,7 @@
 
 ## 2-Transformación:
 
-![Braindead_lawnmower2](https://github.com/illegalvoidundead/ETL/assets/143459249/8595dae7-a2aa-4a2d-a7e7-2acfeb30d637)
+![Braindead_lawnmower2](data/Braindead_lawnmower2.gif)
 
 
 ### - Una vez cargadas las tablas en Jupyter Notebook procedo a su transformación, el proceso ha sido muy similar para las cuatro tablas y podría resumirlo en los siguientes puntos:
