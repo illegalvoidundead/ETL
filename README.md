@@ -74,7 +74,7 @@ Esta es la última fase del proceso en la cual los datos transformados son carga
   <img src="data/imp_patr.png" width="600" height="500" fig.align = "center" >
 </p>
 
-### El siguiente gráfica representa el ahorro anual en función de la base liquidable después de la reforma del IRPF en la Comunidad de Madrid. Se aprecia claramente la falta de progesividad y como una renta de 600.000€ ahorraría 3000€ al año mientras el ahorro de una de 12.000 estaría en torno a los 33€ al año. El problema no es tanto ese "ahorro" si no lo que las grandes fortunas dejan de pagar.
+### La siguiente gráfica representa el ahorro anual en función de la base liquidable después de la reforma del IRPF en la Comunidad de Madrid. Se aprecia claramente la falta de progesividad y como una renta de 600.000€ ahorraría 3000€ al año mientras el ahorro de una de 12.000 estaría en torno a los 33€ al año. El problema no es tanto ese "ahorro" si no lo que las grandes fortunas dejan de pagar.
 
 ![ahorro](data/ahorro_anual.png)
 
