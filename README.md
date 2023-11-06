@@ -23,4 +23,4 @@
 ![the_fly](https://github.com/illegalvoidundead/ETL/assets/143459249/95447705-bda0-49fe-9e2d-d44cb154269b)
 
 ### - Una vez cargadas las tablas en Jupyter Notebook procedo a su transformación, el proceso ha sido muy similar para las cuatro tablas utilizadas y podríamos resumirlo en los siguientes puntos:
-1. 
+1. Exploración a t
