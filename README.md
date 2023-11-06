@@ -22,7 +22,10 @@
 
 ## 2-Transformación:
 
-![Braindead_lawnmower2](data/Braindead_lawnmower2.gif)
+<p align="left">
+  <img src="data/Braindead_lawnmower2.gif" width="600" height="400" fig.align = "left" >
+</p>
+
 
 
 ### - Una vez cargadas las tablas en Jupyter Notebook procedo a su transformación, el proceso ha sido muy similar para las cuatro tablas y podría resumirlo en los siguientes puntos:
