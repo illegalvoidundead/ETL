@@ -6,8 +6,8 @@
 </p>
  
 ### Objetivo: implementar el proceso de extracción, transformación y carga de datos, poniendo en práctica las habilidades adquiridas hasta ahora. 
-### Partiendo de esta base, he decido recabar información que relacione de alguna forma la agudización del despoblamiento de algunas regiones de lo que se conoce como "España vaciada" y la bajada de carga impositiva a las rentas altas, una práctica desleal señalada como "dumping fiscal", por parte de la Comunidad de Madrid. 
-### Soy consciente de que llevar a cabo un estudio de este tipo puede parecer pretencioso, teniendo en cuenta las limitaciones en cuanto a tiempo y sobretodo en cuanto a habilidades y experiencia en este campo, pero mi objetivo no es tanto el rigor, si no utilizar este somero análisis como hilo conductor para el recabo y transformación de información.
+### Partiendo de esta base, he decido recabar información que relacione de alguna forma la agudización del despoblamiento de algunas regiones de lo que se conoce como "España vaciada" y la bajada de carga impositiva a las rentas altas por parte de la Comunidad de Madrid, una práctica desleal señalada como "dumping fiscal". 
+### Soy consciente de que llevar a cabo un estudio de este tipo puede parecer pretencioso teniendo en cuenta las limitaciones en cuanto a tiempo y sobretodo en cuanto a habilidades y experiencia en este campo, pero mi objetivo no es tanto el rigor, si no utilizar este somero análisis como hilo conductor para el recabo y transformación de información.
 
 ## 1-Extracción:
 
@@ -28,6 +28,17 @@
 1. Exploración y visualización del dataframe mediante los métodos .head(), .info(), .describe(), .columns; a fin de encontrar nulos, comprobar los nombres de las columnas, encontrar redundancias.
 2. Eliminar nulos, columnas redundantes, crear nuevas columnas en caso de que el dataframe solo tenga una columna en la que se encuentran todos los valores, limpiar columnas de valores no numéricos para poder convertirlos en int o float.
 3. Seleccionar las columnas que contengan los datos que necesito para mi propósito.
+
+- Así venía la tabla obtenida en portalestadístico.com:
+  
+![Captura de pantalla 2023-11-06 a las 22 46 36](https://github.com/illegalvoidundead/ETL/assets/143459249/827c1870-3973-466d-a0ea-609a627da34a)
+
+
+- Y así queda después de su transformación
+
+![Captura de pantalla 2023-11-06 a las 22 52 23](https://github.com/illegalvoidundead/ETL/assets/143459249/30042262-6462-4d5f-8a8b-650f87442ffc)
+
+
 
 ## 3-Carga:
 Esta es la última fase del proceso en la cual los datos transformados son cargados en el sistema de destino, por su facilidad de uso he elegido MongoDB, que es una base de datos NoSQL orientada a documentos y que no requiere un esquema fijo.
