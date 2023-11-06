@@ -30,4 +30,4 @@
 3. Seleccionar las columnas que contengan los datos que necesito para mi propósito.
 
 ## 3-Carga:
-#### Esta es la última fase del proceso en la cual los datos transformados son cargados en el sistema de destino, por su facilidad de uso he elegido MongoDB, que es una base de datos NoSQL orientada a documentos y que no requiere un esquema fijo.
+##### Esta es la última fase del proceso en la cual los datos transformados son cargados en el sistema de destino, por su facilidad de uso he elegido MongoDB, que es una base de datos NoSQL orientada a documentos y que no requiere un esquema fijo.
