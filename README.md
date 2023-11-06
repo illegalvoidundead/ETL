@@ -1,4 +1,6 @@
-# Proyecto 4: extracción, transformación y carga.
+# Proyecto 4
+
+# 1º Parte: extracción, transformación y carga.
 
 
 <p align="center">
@@ -11,7 +13,7 @@
 
 ## 1-Extracción:
 
-![billmurray](https://github.com/illegalvoidundead/ETL/assets/143459249/33fb79e9-411d-48c7-ad89-2573e7439246)
+![billmurray](data/billmurray.gif)
 
 #### - Utilizando la técnica de scraping a través de la librería Selenium de Python, he extraído una tabla alojada en https://datawrapper.dwcdn.net/LG7ud/3/ en la cual se encuentran datos sobre el IRPF en la Comunidad de Madrid.
 #### - A través del sitio web del ministerio de Hacienda he obtenido una tabla con datos sobre tipos impositivos para el impuesto del patrimonio por Comunidades Autónomas. https://www.hacienda.gob.es/Documentacion/Publico/Tributos/Estadisticas/IP/2020/Graficos-Libro-IP-2020.zip
@@ -42,3 +44,18 @@
 
 ## 3-Carga:
 Esta es la última fase del proceso en la cual los datos transformados son cargados en el sistema de destino, por su facilidad de uso he elegido MongoDB, que es una base de datos NoSQL orientada a documentos y que no requiere un esquema fijo.
+
+
+
+# 2º Parte: Dumping fiscal en la Comunidad de Madrid y vaciamiento de la España interior.
+
+### El fenómeno del desplazamiento de población de zonas de la España central hacia Madrid y la consecuente despoblación de estas es un fenómeno complejo y multicausal. No pretendo demostrar que exista una relación directa entre el dumping fiscal que realiza Comunidad de Madrid y la España vaciada, pero sí que contribuye a agravar el problema de la despoblación atrayendo a empresas y personas a esta región en detrimento de otras zonas de España.
+
+<p align="center">
+  <img src="data/poblacion_comp.png" width="653" height="374" fig.align = "center" >
+</p>
+
+
+
+
+
