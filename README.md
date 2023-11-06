@@ -52,10 +52,27 @@ Esta es la última fase del proceso en la cual los datos transformados son carga
 ### El fenómeno del desplazamiento de población de zonas de la España central hacia Madrid y la consecuente despoblación de estas es un fenómeno complejo y multicausal. No pretendo demostrar que exista una relación directa entre el dumping fiscal que realiza Comunidad de Madrid y la España vaciada, pero sí que contribuye a agravar el problema de la despoblación atrayendo a empresas y personas a esta región en detrimento de otras zonas de España.
 
 <p align="center">
-  <img src="data/poblacion_comp.png" width="653" height="374" fig.align = "center" >
+  <img src="data/poblacion_comp.png" width="600" height="500" fig.align = "center" >
+</p>
+-Evolución de la población de Extremadura
+
+<p align="center">
+  <img src="data/poblacion_ext.png" width="600" height="500" fig.align = "center" >
+</p>
+-Evolución de la población de Castilla y León
+
+<p align="center">
+  <img src="data/poblacion_cyl.png" width="600" height="500" fig.align = "center" >
+</p>   
+
+-Tipo impositivo medio y efectivo del impuesto sobre el patrimonio.
+* El tipo medio se refiere al porcentaje que resulta de dividir la cuota tributaria por la base imponible, mientras que el tipo efectivo se refiere al porcentaje real que una persona física o jurídica paga a la Hacienda Pública.
+<p align="center">
+  <img src="data/imp_patr.png" width="600" height="500" fig.align = "center" >
 </p>
 
+### El siguiente gráfica representa el ahorro anual en función de la base liquidable después de la reforma del IRPF en la Comunidad de Madrid. Se aprecia claramente la falta de progesividad y como una renta de 600.000€ ahorraría 3000€ al año mientras el ahorro de una de 12.000 estaría en torno a los 33€ al año. El problema no es tanto ese "ahorro" si no lo que las grandes fortunas dejan de pagar.
 
-
+![ahorro](data/ahorro_anual.png)
 
 
