@@ -75,4 +75,5 @@ Esta es la última fase del proceso en la cual los datos transformados son carga
 
 ![ahorro](data/ahorro_anual.png)
 
+![ahorro](data/giphy.gif)
 
