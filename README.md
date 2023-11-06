@@ -20,7 +20,14 @@
 
 ## 2-Transformación:
 
-![the_fly](https://github.com/illegalvoidundead/ETL/assets/143459249/95447705-bda0-49fe-9e2d-d44cb154269b)
+![Braindead_lawnmower2](https://github.com/illegalvoidundead/ETL/assets/143459249/8595dae7-a2aa-4a2d-a7e7-2acfeb30d637)
 
-### - Una vez cargadas las tablas en Jupyter Notebook procedo a su transformación, el proceso ha sido muy similar para las cuatro tablas utilizadas y podríamos resumirlo en los siguientes puntos:
-1. Exploración a t
+
+### - Una vez cargadas las tablas en Jupyter Notebook procedo a su transformación, el proceso ha sido muy similar para las cuatro tablas y podría resumirlo en los siguientes puntos:
+
+1. Exploración y visualización del dataframe mediante los métodos .head(), .info(), .describe(), .columns; a fin de encontrar nulos, comprobar los nombres de las columnas, encontrar redundancias.
+2. Eliminar nulos, columnas redundantes, crear nuevas columnas en caso de que el dataframe solo tenga una columna en la que se encuentran todos los valores, limpiar columnas de valores no numéricos para poder convertirlos en int o float.
+3. Seleccionar las columnas que contengan los datos que necesito para mi propósito.
+
+## 3-Carga:
+### Esta es la última fase del proceso en la cual los datos transformados son cargados en el sistema de destino, por su facilidad de uso he elegido MongoDB, que es una base de datos NoSQL orientada a documentos y que no requiere un esquema fijo.
